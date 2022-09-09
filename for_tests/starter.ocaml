@@ -1,3 +1,0 @@
-let z = let a = 5 in a + 2;;
-print_int z;;
-print_endline " ";;
