@@ -21,12 +21,6 @@ let rec dernier l = match l with
     | [] -> 0
 ;;
 
-let rec acc lst m =
-    match lst with
-        | [] -> m
-        | head :: tail -> if head > m then acc tail head else acc tail m
-;;
-
 let max l = 
     let rec acc lst m =
     match lst with
